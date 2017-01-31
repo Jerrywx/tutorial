@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>交集选择器</title>
+	<style type="text/css">
+		
+	p.clas {
+		color: red;
+	}
+
+	#iden.clas {
+		color: blue;
+	}
+
+	</style>
+</head>
+	<body>
+		<!-- 
+		1. 什么是交集选择器？
+		作用: 给所有选中的标签 相交的那部分标签设置属性
+		格式:
+		选择器1选择器2 {
+			属性: 值;
+		}
+		
+		注意点:
+		1. 选择器和选择器之间没有任何的链接符号
+		2. 选择器可以使用标签名/id名称/class/名称
+		3. 交集选择器仅仅作为了解 开发中几乎不用
+
+		 -->
+
+		<p>我是段落标签</p>
+		<p>我是段落标签</p>
+		<p class="clas" id="iden">我是段落标签</p>
+		<p class="clas">我是段落标签</p>
+		<p>我是段落标签</p>
+		<p>我是段落标签</p>
+
+
+	</body>
+</html>
