@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>外边距属性</title>
+
+    <style>
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        div {
+            height: 50px;
+            border: 1px solid black;
+        }
+
+        span {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            border: 1px solid red;
+        }
+
+        .box1 {
+            margin-top: 40px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        div {
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+
+</head>
+    <body>
+    <!--
+    1. 什么是外边距?
+    标签和标签之间的距离就是外边距
+    2. 格式
+    2.1 非连写
+    margin-top: ;
+    margin-right: ;
+    margin-bottom: ;
+    margin-left: ;
+
+    2.2 连写
+    margin: 上 右 下 左;
+
+    -->
+
+    <span class="box1">我是span</span><span class="box2">我是span</span><span class="box3">我是span</span>
+
+    <div></div>
+    <div></div>
+
+    </body>
+</html>
