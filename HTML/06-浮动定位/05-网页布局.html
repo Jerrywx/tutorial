@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05-网页布局</title>
+
+    <style type="text/css">
+
+        .box {
+            width: 980px;
+            height:700px;
+            margin:0px auto;
+            background-color: lightgray;
+        }
+
+        .head {
+            height: 50px;
+            background-color: black;
+        }
+
+        .content {
+            height: 600px;
+            background-color: yellowgreen;
+        }
+
+        .foot {
+            height:50px;
+            background-color: black;
+        }
+
+
+        /*内容布局*/
+        .l-con {
+            width: 100px;
+            height: 600px;
+            background-color: red;
+            float: left;
+        }
+
+        .m-con {
+            width: 780px;
+            height: 600px;
+            background-color: lightblue;
+            float: left;
+        }
+
+        .r-con {
+            width:100px;
+            height:600px;
+            background-color: aqua;
+            float: left;
+        }
+
+
+        .up-con {
+            width: 780px;
+            height: 300px;
+            background-color: green;
+        }
+
+        .down-con {
+            width: 780px;
+            height: 300px;
+            background-color: yellow;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="box">
+
+        <!-- 头部 -->
+        <div class="head">
+
+        </div>
+
+        <!-- 内容 -->
+        <div class="content">
+
+            <!-- 左侧 -->
+            <div class="l-con"></div>
+
+            <!-- 中间 -->
+            <div class="m-con">
+
+                <!-- 上 -->
+                <div class="up-con"></div>
+                <!-- 下 -->
+                <div class="down-con"></div>
+            </div>
+
+            <!-- 右侧 -->
+            <div class="r-con"></div>
+
+        </div>
+
+        <!-- 尾部 -->
+        <div class="foot">
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
