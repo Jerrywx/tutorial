@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+
+    <!--
+    表单的组成
+    1. 表单域
+    2.
+    -->
+
+    <form action="1.php" method="get">
+
+        <fieldset>
+            <legend>用户注册</legend>
+
+        <!-- 文本输入框 -->
+        用户名:<input type="text" name="username" maxlength="8" readonly="readonly" value="哈哈哈">
+        <br>
+        <!-- 密码输入框 -->
+        密  码: <input type="password" name="pwd">
+        <br>
+        <!-- 单选按钮 -->
+        <input type="radio" name="gender" checked="checked">男
+        <input type="radio" name="gender">女
+        <br>
+
+        <!-- 多项选择空间 -->
+        选择你的爱好:<br>
+        <input type="checkbox" checked="checked"> 抽烟
+        <input type="checkbox" checked="checked"> 喝酒
+        <input type="checkbox" checked="checked"> 烫头
+
+        <!-- 下拉选择控件 -->
+        <br>
+        省选择:
+        <select multiple>
+            <option>北京</option>
+            <option>上海</option>
+            <option>广州</option>
+            <option selected="selected">山东</option>
+            <option>四川</option>
+        </select>
+
+        <br>
+        <select>
+            <optgroup label="选择一:">
+                <option>第一部分</option>
+                <option>第二部分</option>
+                <option>第三部分</option>
+            </optgroup>
+
+            <optgroup label="选择二:">
+                <option>第一部分</option>
+                <option>第二部分</option>
+                <option>第三部分</option>
+            </optgroup>
+
+            <optgroup label="选择三:">
+                <option>第一部分</option>
+                <option>第二部分</option>
+                <option>第三部分</option>
+            </optgroup>
+        </select>
+
+        <br>
+        <!-- 上传文件 -->
+        <input type="file">
+
+        <br>
+        <!-- 重置按钮 -->
+        <input type="reset">
+
+        <br>
+        <input type="submit">
+
+        </fieldset>
+
+    </form>
+
+
+
+</body>
+</html>
