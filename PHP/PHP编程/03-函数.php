@@ -136,6 +136,8 @@ function handle(Entertainment $a, callable $callback = NULL) {
 
 /// 5、返回值
 echo "<h3>5、返回值</h3>";
+
+//
 function returnArray() {
     return array("one", "two", "three");
 }
@@ -147,8 +149,8 @@ foreach ($values as $v) {
 }
 
 
-/// 6、可变参数
-echo "<h3>6、可变参数</h3>";
+/// 6、可变函数
+echo "<h3>6、可变函数</h3>";
 
 function one() {
     echo "This is One <br>";
@@ -162,13 +164,55 @@ function Three() {
     echo "This is Three<br>";
 }
 
-$fcc = "two";
+/// 使用可变变量可以基于变量的值调用函数。
+$$func = two();
+$$func1 = three;
 
+$funcc = one;
+
+if (function_exists($funcc)) {
+    $funcc();
+    echo "<p>函数存在</p>";
+} else {
+    echo "<p>函数不不不存在</p>";
+}
+
+/// echo() 和 isset() 语言结构不能当做变量函数使用
+$myEcho = "echo";
+//$myEcho "asdasd";  错误
 
 
 /// 7、匿名函数
 echo "<h3>7、匿名函数</h3>";
 
+/// 1.
+$sarray = array("qwe", "cz", "saa", "fds", "erwer", "cxzc");
+usort($sarray, function ($a, $b){
+    return strlen($a) - strlen($b);
+});
+
+print_r($sarray);
+
+$numbers = array(2,3,4,5,6,7);
+$mul = 0;
+
+echo "<br>";
+/// 2.
+usort($numbers, function ($a, $b) use ($mul) {
+
+    if ($mul <= 0) {
+        return $b - $a;
+    }
+
+    return $a - $b;
+});
+
+
+print_r($numbers);
 
 
 ?>
+
+
+
+
