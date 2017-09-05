@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="397c47e3-7233-4ac9-9423-61e1fbe925c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/li_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/tb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/v.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/vb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/作业1-爱宠物.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/作业2-个人资料.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/作业2-行业动态.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/06-浮动定位/03-浮动案例1.html" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/03-浮动案例1.html" />
-    </list>
+    <list default="true" id="397c47e3-7233-4ac9-9423-61e1fbe925c2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +30,8 @@
       <file leaf-file-name="作业2-行业动态.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML/06-浮动定位/作业2-行业动态.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="608">
+              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -124,8 +113,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="672" />
-    <option name="y" value="165" />
+    <option name="x" value="477" />
+    <option name="y" value="42" />
     <option name="width" value="1502" />
     <option name="height" value="1049" />
   </component>
@@ -329,12 +318,12 @@
       <workItem from="1504085884217" duration="327000" />
       <workItem from="1504090800821" duration="212000" />
       <workItem from="1504513701066" duration="146000" />
-      <workItem from="1504582947054" duration="5161000" />
+      <workItem from="1504582947054" duration="5211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68007000" />
+    <option name="totallyTimeSpent" value="68057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,10 +335,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="672" y="165" width="1502" height="1049" extended-state="0" />
-    <editor active="false" />
+    <frame x="477" y="42" width="1502" height="1049" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19311276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19311276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -655,8 +644,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/06-浮动定位/作业2-行业动态.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="608">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
           <folding />
         </state>
       </provider>
