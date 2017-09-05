@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="397c47e3-7233-4ac9-9423-61e1fbe925c2" name="Default" comment="" />
+    <list default="true" id="397c47e3-7233-4ac9-9423-61e1fbe925c2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/head_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/li_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/li_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/tb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/v.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/vb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/a_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/banner_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/button2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/nav_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/作业1-导航作业案例.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +44,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="作业2-行业动态.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML/06-浮动定位/作业2-行业动态.html">
+      <file leaf-file-name="作业2-行业动态.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/05-盒子模型/作业2-行业动态.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="353">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="作业1-导航作业案例.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML/06-浮动定位/作业1-导航作业案例.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -102,6 +129,8 @@
         <option value="$PROJECT_DIR$/HTML/06-浮动定位/作业-爱宠物.html" />
         <option value="$PROJECT_DIR$/HTML/06-浮动定位/作业2-个人资料.html" />
         <option value="$PROJECT_DIR$/HTML/06-浮动定位/作业2-行业动态.html" />
+        <option value="$PROJECT_DIR$/HTML/05-盒子模型/作业2-行业动态.html" />
+        <option value="$PROJECT_DIR$/HTML/06-浮动定位/作业1-导航作业案例.html" />
       </list>
     </option>
   </component>
@@ -177,6 +206,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Documents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Documents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="06-浮动定位" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -193,9 +240,11 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/HTML/06-浮动定位/image" />
+      <recent name="$PROJECT_DIR$/HTML/05-盒子模型" />
       <recent name="$PROJECT_DIR$/HTML/test文件" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML/05-盒子模型" />
       <recent name="$PROJECT_DIR$/HTML/06-浮动定位/image" />
     </key>
   </component>
@@ -318,12 +367,12 @@
       <workItem from="1504085884217" duration="327000" />
       <workItem from="1504090800821" duration="212000" />
       <workItem from="1504513701066" duration="146000" />
-      <workItem from="1504582947054" duration="5211000" />
+      <workItem from="1504582947054" duration="6206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68057000" />
+    <option name="totallyTimeSpent" value="69052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,7 +444,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/phpTest/05-String.html" />
     <entry file="file://$PROJECT_DIR$/phpTest/05-String.php" />
     <entry file="file://$PROJECT_DIR$/phpTest/06-processControl.html" />
     <entry file="file://$PROJECT_DIR$/phpTest/10-menus.php" />
@@ -578,7 +626,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/06-浮动定位/作业2-个人资料.html">
+    <entry file="file://$PROJECT_DIR$/HTML/05-盒子模型/作业2-个人资料.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
@@ -586,7 +634,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/06-浮动定位/作业1-爱宠物.html">
+    <entry file="file://$PROJECT_DIR$/HTML/05-盒子模型/作业1-爱宠物.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
@@ -642,10 +690,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/06-浮动定位/作业2-行业动态.html">
+    <entry file="file://$PROJECT_DIR$/HTML/05-盒子模型/作业2-行业动态.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        <state relative-caret-position="353">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/06-浮动定位/作业1-导航作业案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding />
         </state>
       </provider>
