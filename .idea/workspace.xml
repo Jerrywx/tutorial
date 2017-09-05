@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397c47e3-7233-4ac9-9423-61e1fbe925c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/head_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/li_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/li_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/tb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/v.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/05-盒子模型/image/vb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/a_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/banner_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/button2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/nav_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/作业1-导航作业案例.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/r1_c1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/r2_c1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/image/r2_c2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/作业2-固定定位.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/06-浮动定位/作业1-导航作业案例.html" afterPath="$PROJECT_DIR$/HTML/06-浮动定位/作业1-导航作业案例.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,11 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="作业1-导航作业案例.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="作业1-导航作业案例.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/06-浮动定位/作业1-导航作业案例.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="345">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="作业2-固定定位.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML/06-浮动定位/作业2-固定定位.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -131,6 +132,7 @@
         <option value="$PROJECT_DIR$/HTML/06-浮动定位/作业2-行业动态.html" />
         <option value="$PROJECT_DIR$/HTML/05-盒子模型/作业2-行业动态.html" />
         <option value="$PROJECT_DIR$/HTML/06-浮动定位/作业1-导航作业案例.html" />
+        <option value="$PROJECT_DIR$/HTML/06-浮动定位/作业2-固定定位.html" />
       </list>
     </option>
   </component>
@@ -367,12 +369,12 @@
       <workItem from="1504085884217" duration="327000" />
       <workItem from="1504090800821" duration="212000" />
       <workItem from="1504513701066" duration="146000" />
-      <workItem from="1504582947054" duration="6206000" />
+      <workItem from="1504582947054" duration="6839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69052000" />
+    <option name="totallyTimeSpent" value="69685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,7 +446,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/phpTest/05-String.php" />
     <entry file="file://$PROJECT_DIR$/phpTest/06-processControl.html" />
     <entry file="file://$PROJECT_DIR$/phpTest/10-menus.php" />
     <entry file="file://$PROJECT_DIR$/phpTest/10-sticky1.php" />
@@ -700,8 +701,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/06-浮动定位/作业1-导航作业案例.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="345">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/06-浮动定位/作业2-固定定位.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding />
         </state>
       </provider>

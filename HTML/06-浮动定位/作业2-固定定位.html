@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>固定定位</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0;
+            padding:0;
+        }
+
+        .mainbody {
+            width: 998px;
+            height: 1677px;
+            margin:  0 auto;
+            margin-top: 40px;
+        }
+
+        .box {
+            overflow: hidden;
+        }
+
+        .header {
+            position: fixed;
+        }
+
+        .left {
+            position: fixed;
+            left:0;
+            top: 150px;
+        }
+
+        .right {
+            position: fixed;
+            right:0;
+            top:150px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="box">
+
+        <div class="header">
+            <img src="image/r1_c1.png">
+        </div>
+
+        <div class="mainbody">
+            <img src="image/box.png">
+        </div>
+
+        <div class="left">
+            <img src="image/r2_c1.png">
+        </div>
+
+        <div class="right">
+            <img src="image/r2_c2.png">
+        </div>
+
+    </div>
+
+</body>
+</html>
