@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>复习</title>
+
+    <style type="text/css">
+
+        .box1 {
+            width: 300px;
+            height: 150px;
+            border: 1px solid red;
+        }
+
+        .one {
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            float: left;
+        }
+
+        .two {
+            display: block;
+            width: 200px;
+            height: 100px;
+            /*float: left;*/
+            background-color: yellowgreen;
+        }
+
+        .box2 {
+            margin-top: 20px;
+            border: 1px solid green;
+            /*!*overflow: hidden;*!           清除浮动方法2*/
+        }
+
+
+        /* 清除浮动方法 3 ---- 开始 */
+        .box2:after {
+            content: "";
+            height: 0;
+            line-height: 0;
+            display: block;
+            clear: both;
+            visibility: hidden;
+        }
+
+        .box2 {
+            zoom: 1;
+        }
+        /* 清除浮动方法 3 ---- 结束 */
+
+        .three {
+            width: 100px;
+            height: 100px;
+            float: left;
+            background-color: red;
+        }
+
+        .four {
+            width: 100px;
+            height: 80px;
+            float: left;
+            background-color: green;
+        }
+
+        .footer {
+            width: 400px;
+            height: 50px;
+            background-color: black;
+
+            /*!*clear: both;*!        清除浮动方法1*/
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- 1. 浮动 -->
+    <h4>1、浮动案例</h4>
+    <div class="box1">
+
+        <div class="one"></div>
+        <div class="two"></div>
+
+    </div>
+
+
+    <h4>2、清除浮动</h4>
+    <div class="box2">
+
+        <div class="three"></div>
+
+        <div class="four"></div>
+
+    </div>
+    <div class="footer"></div>
+
+    <!-- 2. 定位 -->
+    <h4>3、绝对定位</h4>
+
+
+    <h4>4、相对定位</h4>
+
+
+</body>
+</html>
