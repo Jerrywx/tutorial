@@ -2,22 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397c47e3-7233-4ac9-9423-61e1fbe925c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/home_hot_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/icon_0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/index_161-175.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/nav_bg-line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/nav_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/renren.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/search2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/weibo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/xinlang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/images/zone.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/08-新闻案例/01-尚合首页.html" afterPath="$PROJECT_DIR$/HTML/08-新闻案例/01-尚合首页.html" />
     </list>
@@ -89,16 +73,28 @@
       <file leaf-file-name="01-尚合首页.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML/08-新闻案例/01-尚合首页.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="286" column="25" selection-start-line="286" selection-start-column="25" selection-end-line="286" selection-end-column="25" />
               <folding>
+                <element signature="e#6220#6312#0" expanded="false" />
+                <element signature="e#6328#6508#0" expanded="false" />
+                <element signature="e#6527#6600#0" expanded="false" />
+                <element signature="e#6619#6658#0" expanded="false" />
+                <element signature="e#6673#6710#0" expanded="false" />
+                <element signature="e#6735#6848#0" expanded="false" />
+                <element signature="e#6875#6946#0" expanded="false" />
+                <element signature="e#6968#7110#0" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#p#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -187,8 +183,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="671" />
-    <option name="y" value="96" />
+    <option name="x" value="686" />
+    <option name="y" value="225" />
     <option name="width" value="1376" />
     <option name="height" value="927" />
   </component>
@@ -417,12 +413,12 @@
       <workItem from="1504513701066" duration="146000" />
       <workItem from="1504582947054" duration="10364000" />
       <workItem from="1504677471998" duration="2899000" />
-      <workItem from="1504835488035" duration="9736000" />
+      <workItem from="1504835488035" duration="15025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85845000" />
+    <option name="totallyTimeSpent" value="91134000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -434,26 +430,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="671" y="96" width="1376" height="927" extended-state="0" />
+    <frame x="686" y="225" width="1376" height="927" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2110701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -788,16 +784,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/08-新闻案例/01-尚合首页.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+        <state relative-caret-position="468">
+          <caret line="286" column="25" selection-start-line="286" selection-start-column="25" selection-end-line="286" selection-end-column="25" />
           <folding>
+            <element signature="e#6220#6312#0" expanded="false" />
+            <element signature="e#6328#6508#0" expanded="false" />
+            <element signature="e#6527#6600#0" expanded="false" />
+            <element signature="e#6619#6658#0" expanded="false" />
+            <element signature="e#6673#6710#0" expanded="false" />
+            <element signature="e#6735#6848#0" expanded="false" />
+            <element signature="e#6875#6946#0" expanded="false" />
+            <element signature="e#6968#7110#0" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
