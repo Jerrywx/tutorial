@@ -3,8 +3,493 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <style type="text/css">
+
+        /* 格式处理 */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        input {
+            border: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* 网页头部 */
+        .header {
+            width: 980px;
+            height: 62px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            margin-top: 11px;
+            float: left;
+        }
+
+        .search {
+            float: right;
+            text-align: center;
+            margin-top: 16px;
+        }
+
+        input[type="text"] {
+            width: 165px;
+            height: 30px;
+            border-radius: 4px;
+            float: left;
+            border: 1px solid #ECECEC;
+            background-color: #F5F5F5;
+            color: #ACACAC;
+        }
+
+        input[type="button"] {
+            width: 30px;
+            height: 30px;
+            background-image: url("images/search2.jpg");
+            float: left;
+        }
+
+
+        /* 导航栏 */
+        .nav {
+            background-image: url("images/nav_bg.png");
+            height: 55px;
+        }
+
+        .nav ul {
+            width: 980px;
+            margin: 0 auto;
+        }
+
+        .nav a {
+            float: left;
+            height: 55px;
+            line-height: 55px;
+            width: 130px;
+            text-align: center;
+            font-size: 18px;
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+            background: url("images/nav_bg-line.png") no-repeat right;
+        }
+
+        .nav a:hover {
+            color: seagreen;
+        }
+
+        /* Banner */
+        .banner {
+            margin: 0 auto;
+            width: 980px;
+            height: 597px;
+        }
+
+        /* 公告部分 */
+        .notice {
+            margin-top: 20px;
+            height: 30px;
+            background-color: #FBFBFB;
+            border-top: 1px solid #EFEFEF;
+            border-bottom: 1px solid #EFEFEF;
+        }
+
+        .noticeContent {
+            width: 980px;
+            margin: 0 auto;
+        }
+
+        .notMessage {
+            display: inline-block;
+            height: 30px;
+            line-height: 30px;
+            float: left;
+        }
+
+        .notTitle {
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .notContent {
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .notShare {
+            float: right;
+            margin-top: 7px;
+        }
+
+
+        /* 选项卡 */
+        .select {
+            height: 291px;
+            border: 1px solid white;
+            text-align: center;
+        }
+
+        .select>div {
+            height: 226px;
+            width: 980px;
+            margin: 0 auto;
+            margin-top: 15px;
+            background-color: white;
+        }
+
+        .card div {
+            float: left;
+            border: 1px solid #E4E4E4;
+        }
+
+        .card1 {
+            height: 224px;
+            width: 310px;
+            border-color: #EAEAEA;
+        }
+
+        .card2 {
+            margin-left: 12px;
+            height: 224px;
+            width: 370px;
+            border-color: #EAEAEA;
+        }
+
+        .card3 {
+            margin-left: 12px;
+            height: 224px;
+            width: 270px;
+            border-color: #EAEAEA;
+        }
+
+
+        /* footer */
+        .footer {
+            height: 310px;
+            background-color: #2D2D2D;
+            position: relative;
+        }
+
+        /* 网页尾部 */
+        .footer-Top {
+            width: 980px;
+            height: 220px;
+            margin: 0 auto;
+            border-bottom: 1px dashed #414141;
+        }
+
+        .list {
+            float: left;
+            height: 200px;
+            width: 100px;
+            margin: 0 auto;
+            padding-left: 10px;
+            padding-top: 15px;
+        }
+
+        .list h3 {
+            padding-bottom: 20px;
+            color: #C3C9C9;
+        }
+
+        .list li {
+            color: #707070;
+        }
+
+        .top {
+            float: right;
+        }
+
+        .footer-Bottom {
+            height: 90px;
+        }
+
+        .footer-Bottom p {
+            text-align: center;
+            display: block;
+        }
+
+        .bottonIcon {
+            width: 50px;
+            height: 20px;
+            position: absolute;
+            bottom: 6px;
+            left: 50%;
+        }
+
+    </style>
+
 </head>
 <body>
 
+    <!-- 网页头部 -->
+    <div class="header">
+        <!-- logo -->
+        <div class="logo"><img src="images/logo.jpg"></div>
+
+        <!-- 搜索 -->
+        <div class="search">
+            <input type="text" value=" 请输入内容...">
+            <input type="button">
+        </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <div class="nav">
+
+        <ul>
+            <li>
+                <a href="#">首页</a>
+            </li>
+
+            <li>
+                <a href="#">只能手机</a>
+            </li>
+
+            <li>
+                <a href="#">平板电脑</a>
+            </li>
+
+            <li>
+                <a href="#">配件</a>
+            </li>
+
+            <li>
+                <a href="#">服务支持</a>
+            </li>
+
+            <li>
+                <a href="#">关于尚合</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+
+        <img src="images/banner.jpg">
+
+    </div>
+
+    <!-- 公告部分 -->
+    <div class="notice">
+        <div class="noticeContent">
+
+            <p class="notMessage">
+                <span class="notTitle">
+                    最新公告:
+                </span>
+                <span class="notContent">尚合Aone只能手机入网证已经获工信部门审批下发。上河官方</span>
+            </p>
+
+            <div class="notShare">
+                <img src="images/renren.png">
+                <img src="images/weibo.png">
+                <img src="images/xinlang.png">
+                <img src="images/zone.png">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 选项卡 -->
+    <div class="select">
+
+        <div class="card">
+
+            <div class="card1">
+
+            </div>
+
+            <div class="card2">
+
+            </div>
+
+            <div class="card3">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 网页尾部 -->
+    <div class="footer">
+
+        <div class="footer-Top">
+            <div class="list">
+                <ul>
+                    <h3>尚合首页</h3>
+                    <li>
+                        返回首页
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list">
+                <ul>
+                    <h3>智能手机</h3>
+                    <li>
+                        Aone-T
+                    </li>
+                    <li>
+                        Aone
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list">
+                <ul>
+                    <h3>平板电脑</h3>
+                    <li>
+                        尚PAD S100
+                    </li>
+                    <li>
+                        尚PAD S200
+                    </li>
+                    <li>
+                        尚PAD SH-Q7
+                    </li>
+                    <li>
+                        尚PAD SH-Q5
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list">
+                <ul>
+                    <h3>配件中心</h3>
+                    <li>
+                        Aone 智能手机
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list">
+                <ul>
+                    <h3>服务于支持</h3>
+                    <li>
+                        售后服务
+                    </li>
+                    <li>
+                        投诉与建议
+                    </li>
+                    <li>
+                        包宿网点
+                    </li>
+                    <li>
+                        常见问题FAQ
+                    </li>
+                    <li>
+                        订单查询
+                    </li>
+                    <li>
+                        下载专区
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list">
+                <ul>
+                    <h3>关于我们</h3>
+                    <li>
+                        公司介绍
+                    </li>
+                    <li>
+                        企业文化
+                    </li>
+                    <li>
+                        工作机会
+                    </li>
+                    <li>
+                        法律声明
+                    </li>
+                    <li>
+                        联系我们
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list">
+                <ul>
+                    <h3>新闻中心</h3>
+                    <li>
+                        公司新闻
+                    </li>
+                    <li>
+                        媒体报道
+                    </li>
+                    <li>
+                        行业动态
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="list">
+                <ul>
+                    <h3>常用链接</h3>
+                    <li>
+                        百度
+                    </li>
+
+                    <li>
+                        Google
+                    </li>
+                    <li>
+                        新浪微博
+                    </li>
+                </ul>
+            </div>
+
+            <div class="top">
+                <img src="images/index_161-175.gif">
+            </div>
+
+        </div>
+
+        <div class="footer-Bottom">
+            <p class="line1">
+                With iOS 11, users can browse in-app purchases directly on the App Store your app.
+            </p>
+
+            <p class="line2">
+                Promoted in-app purchases appear on your product page
+            </p>
+
+            <div class="bottonIcon">
+                <img src="images/21.gif">
+                <img src="images/icon_0.gif">
+            </div>
+
+        </div>
+
+    </div>
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
