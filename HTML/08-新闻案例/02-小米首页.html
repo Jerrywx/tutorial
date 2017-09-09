@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* 导航栏 */
+        .nav {
+            height:40px;
+            background-color: #333333;
+        }
+
+        .navContent {
+            width: 1226px;
+            margin: 0 auto;
+        }
+
+        .navLeft ul {
+            margin-left: -7px;
+        }
+
+        .navLeft li {
+            float: left;
+            line-height: 40px;
+        }
+
+        .navLeft a{
+            color: #B0B0B0;
+            padding-right: 7px;
+            padding-left: 7px;
+            text-decoration: none;
+            font-size: 12.5px;
+        }
+
+        .nav a:hover{
+            color: white;
+        }
+
+        .navLeft span {
+            color: #393D42;
+            font-size: 12px;
+        }
+
+        .navRight {
+            float: right;
+            height: 40px;
+            width: 267px;
+            /*background-color: dimgray;*/
+        }
+
+        .navRight li{
+            float: left;
+            height: 40px;
+            line-height: 40px;
+        }
+
+        .navRight a {
+            text-decoration: none;
+            font-size: 12.5px;
+            color: #B0B0B0;
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+
+        .navRight span {
+            color: #393D42;
+            font-size: 12px;
+        }
+
+        .car {
+            text-align: center;
+            width: 120px;
+            background-color: #424242;
+        }
+
+        /* 导航栏 */
+
+
+        /* 产品分类 */
+        .product {
+            margin: 0 auto;
+            width: 1226px;
+            height: 100px;
+            position: relative;
+        }
+
+        .icon {
+            width: 49px;
+            height: 49px;
+            background-color: #FF6700;
+            position: absolute;
+            top: 25px;
+        }
+
+        .products {
+            width: 990px;
+            height: 100px;
+            position: absolute;
+            right: 0px;
+        }
+
+        .products li {
+            float: left;
+            height: 100px;
+            line-height: 100px;
+            margin-right: 20px;
+        }
+
+        .products a{
+            text-decoration: none;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .products a:hover{
+            color: #FF6700;
+        }
+
+        .search {
+            float: right;
+            margin-top: 25px;
+            width: 294px;
+            height: 48px;
+            border: 1px solid #E0E0E0;
+        }
+
+        .search input[type="text"] {
+            border-style: none;
+            width: 246px;
+            height: 48px;
+        }
+
+        .search input[type="button"] {
+            border-style: none;
+            width: 48px;
+            height: 48px;
+            border-left: 1px solid #E0E0E0;
+            background-color: white;
+        }
+
+        form{
+            padding: 0;
+            margin: 0;
+        }
+
+        input{
+            float:left;
+        }
+
+        /* banner */
+        .banner {
+            width: 1226px;
+            height: 460px;
+            margin: 0 auto;
+            background-color: greenyellow;
+            position: relative;
+        }
+
+        .classList {
+            width: 233px;
+            height: 460px;
+            background-color: rgba(0,0,0,0.6);
+            position: absolute;
+            top: 0px;
+        }
+
+        .classList ul {
+            margin-top: 20px;
+            /*margin-left: 30px;*/
+        }
+
+        .classList li {
+
+        }
+
+        .classList a {
+            display: inline-block;
+            width: 203px;
+            height: 42px;
+            line-height: 42px;
+            font-size: 14px;
+            text-decoration: none;
+            color: white;
+            padding-left: 30px;
+        }
+
+        .classList a:hover {
+            background-color: #FF6700;
+        }
+
+        .classList span {
+            display: inline-block;
+            width: 30px;
+            float: right;
+            font-size: 24px;
+            color: rgba(255,255,255,0.6);
+        }
+
+        .befo a,.next a{
+            width: 41px;
+            height: 69px;
+            line-height: 69px;
+            font-size: 50px;
+            position: absolute;
+            text-align: center;
+        }
+
+        .befo a, .next a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .befo a:hover {
+            background-color: rgba(0,0,0,0.6);
+        }
+        .next a:hover {
+            background-color: rgba(0,0,0,0.6);
+        }
+
+        .befo a{
+            left: 233px;
+            top: 190px;
+        }
+        .next a{
+            top: 190px;
+            right: 0px;
+        }
+
+        /* 新品展示 */
+        .newPro {
+            width: 1226px;
+            height: 184px;
+            margin: 0px auto;
+            border-top: 1px solid white;
+        }
+
+        .newPro div {
+            float: left;
+            margin-top: 14px;
+        }
+
+        .newClass {
+            width: 234px;
+            height: 170px;
+            background-color: #5F5750;
+            /*margin-top: 14px;*/
+        }
+
+        .newP1 {
+            width: 316px;
+            height: 170px;
+            margin-left: 14px;
+        }
+        .newP2 {
+            width: 316px;
+            height: 170px;
+            margin-left: 15px;
+        }
+        .newP3 {
+            width: 316px;
+            height: 170px;
+            margin-left: 15px;
+        }
+
+        .newP3 img {
+            width: 316px;
+            height: 170px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <div class="nav">
+        <div class="navContent">
+            <div class="navLeft">
+                <ul>
+                    <li>
+                        <a href="#">小米商城</a><span>|</span>
+                    </li>
+
+                    <li>
+                        <a href="#">MIUI</a><span>|</span>
+                    </li>
+                    <li>
+                        <a href="#">米聊</a><span>|</span>
+                    </li>
+                    <li>
+                        <a href="#">游戏</a><span>|</span>
+                    </li>
+                    <li>
+                        <a href="#">多看阅读</a><span>|</span>
+                    </li>
+                    <li>
+                        <a href="#">云服务器</a><span>|</span>
+                    </li>
+                    <li>
+                        <a href="#">小米网移动版</a><span>|</span>
+                    </li>
+                    <li>
+                        <a href="#">问题反馈</a><span>|</span>
+                    </li>
+                    <li>
+                        <a href="#">SelectRegion</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <nav class="navRight">
+
+                <ul>
+                    <li>
+                        <a href="#">登录</a><span>|</span>
+                    </li>
+
+                    <li>
+                        <a href="#">注册</a><span>|</span>
+                    </li>
+
+                    <li>
+                        <a href="#">消息通知</a>
+                    </li>
+
+                    <li class="car">
+                        <a href="#">&#xe60c;购物车(0)</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- 产品分类 -->
+    <div class="product">
+
+        <div class="icon">
+            <img src="images/mi-logo.png">
+        </div>
+
+        <div class="products">
+            <ul>
+                <li>
+                    <a href="#">小米手机</a>
+                </li>
+                <li>
+                    <a href="#">红米</a>
+                </li>
+                <li>
+                    <a href="#">平板 · 笔记本</a>
+                </li>
+                <li>
+                    <a href="#">电视</a>
+                </li>
+                <li>
+                    <a href="#">盒子 · 影音</a>
+                </li>
+                <li>
+                    <a href="#">路由器</a>
+                </li>
+                <li>
+                    <a href="#">智能硬件</a>
+                </li>
+                <li>
+                    <a href="#">服务</a>
+                </li>
+                <li>
+                    <a href="#">社区</a>
+
+                </li>
+            </ul>
+
+            <div class="search">
+                <form>
+                    <input type="text">
+                    <input type="button">
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+
+        <div class="content">
+            <img src="images/mi_banner.jpg">
+        </div>
+
+        <div class="classList">
+            <ul>
+                <li>
+                    <a href="#">笔记本 平板<span>›</span></a>
+                </li>
+                <li>
+                    <a href="#">电视 盒子<span>›</span></a>
+                </li>
+                <li>
+                    <a href="#">手机 电话卡<span>›</span></a>
+                </li>
+                <li>
+                    <a href="#">路由器 智能硬件<span>›</span></a>
+                </li>
+                <li>
+                    <a href="#">移动电源 电池 插线板<span>›</span></a>
+                </li>
+                <li>
+                    <a href="#">耳机 音箱<span>›</span></a>
+                </li>
+                <li>
+                    <a href="#">保护套 贴膜<span>›</span></a>
+                </li>
+                <li>
+                    <a href="#">线材 支架 存储卡<span>›</span></a>
+                </li>
+                <li>
+                    <a href="#">箱包 服饰 鞋 眼镜<span>›</span></a>
+                </li>
+                <li>
+                    <a href="#">米兔 生活周边<span>›</span></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="befo">
+            <a href="#">‹</a>
+        </div>
+
+        <div class="next">
+            <a href="#">›</a>
+        </div>
+
+    </div>
+
+    <!-- 新品展示 -->
+    <div class="newPro">
+
+        <div class="newClass">
+
+        </div>
+
+        <div class="newP1">
+            <img src="xiaomi/1.jpg">
+        </div>
+
+        <div class="newP2">
+            <img src="xiaomi/2.jpg">
+        </div>
+
+        <div class="newP3">
+            <img src="xiaomi/3.jpg">
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
