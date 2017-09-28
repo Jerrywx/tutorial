@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标展示</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #box {
+            width: 360px;
+            height: 70px;
+            margin: 100px auto;
+            padding-top: 360px;
+            border: 1px solid #ccc;
+            overflow: hidden;
+
+            background: url("images/01big.jpg") no-repeat;
+        }
+
+        ul {
+            list-style: none;
+            overflow: hidden;
+            border-top: 1px solid #ccc;
+
+        }
+        li {
+            float: left;
+            margin-right: 2px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="box">
+
+        <!--<img src="images/01big.jpg">-->
+
+        <ul>
+
+            <li>
+                <img onmouseover="fun('01')" src="images/01.jpg">
+                <!--<img onmousemove="fun('01')" src="images/01.jpg">-->
+            </li>
+
+            <li>
+                <img onmouseover="fun('02')" src="images/02.jpg">
+            </li>
+
+            <li>
+                <img onmouseover="fun('03')" src="images/03.jpg">
+            </li>
+
+            <li>
+                <img onmouseover="fun('04')" src="images/04.jpg">
+            </li>
+
+            <li>
+                <img onmouseover="fun('05')" src="images/05.jpg">
+            </li>
+
+        </ul>
+
+    </div>
+
+    <script>
+
+        function fun(name) {
+            var imgName = name + "big.jpg";
+            var target = document.getElementById("box");
+            target.style.backgroundImage = "url(images/" + imgName + ")";
+        }
+
+    </script>
+
+</body>
+</html>

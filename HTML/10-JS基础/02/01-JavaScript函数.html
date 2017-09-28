@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript函数</title>
+</head>
+<body>
+
+    <!-- 1、定义、调用函数 -->
+    <script>
+        /// 1. 自定义函数
+        function func1() {
+            alert("自定义函数");
+        }
+
+        /// 2. 调用函数
+//        func1();
+
+        /// 3. 直接量声明
+        var func2 = function () {
+            alert("直接量声明");
+        }
+//        func2();
+
+        /// 4. 使用 Function 关键字
+        var func3 = new Function("alert('使用 Function 关键字')");
+//        func3();
+    </script>
+
+    <!-- 2、函数测试 -->
+    <script>
+
+//        f1();
+//        console.log(c);
+//        console.log(b);
+//        console.log(a);
+//
+//        function f1() {
+//            var a = b = c = 9;
+//            console.log(a);
+//            console.log(b);
+//            console.log(c);
+//        }
+
+
+        var num = 10;
+        fun();
+        function fun() {
+            console.log(num);
+            var num = 20;
+        }
+
+    </script>
+
+    <!-- 3、函数参数 -->
+    <script>
+        function add(a, b) {
+            /// 输出 形参的个数
+            console.log(add.length);
+            /// 输出 传入实参的个数
+            console.log(arguments.length);
+            console.log(a + b);
+        }
+
+        add(1, 2);
+        add(5);
+    </script>
+
+</body>
+</html>
