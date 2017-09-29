@@ -3,8 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <title>搜索框</title>
+<<<<<<< HEAD
+
+    <style type="text/css">
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 258px;
+            height: 40px;
+            margin: 100px auto;
+        }
+
+        input {
+            border: none;
+            width: 216px;
+            height: 40px;
+            background: url("images/left.jpg");
+        }
+
+        .button {
+            height: 40px;
+            background: url("images/right.jpg") no-repeat right;
+        }
+
+    </style>
+
+
 </head>
 <body>
 
+    <div >
+
+        <div class="box">
+            <div align="left" style="float:left">
+                <input value="请输入..." class="text" onfocus="func1()" id="t" onblur="func2()">
+            </div>
+            <div align="right" class="button" onclick="func()"></div>
+        </div>
+    </div>
+
+
+    <script>
+        function func() {
+            alert("hahha");
+        }
+        
+        function func1() {
+            var target = document.getElementById("t");
+            target.value = "";
+        }
+        
+        function func2() {
+
+            if(txt.value == "") {
+                var target = document.getElementById("t");
+                target.value = "请输入...";
+            }
+
+
+        }
+        
+    </script>
+
+=======
+</head>
+<body>
+
+>>>>>>> 533532179afb32a0a2ac1df3f41ac47cdc0e1e0b
 </body>
 </html>
