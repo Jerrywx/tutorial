@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单的表单验证</title>
+
+    <style type="text/css">
+
+        .box {
+            width: 400px;
+            height: 40px;
+            background-color: lightgray;
+            margin: 100px auto;
+        }
+
+        #tip {
+            color: red;
+            display: none;
+            font-size: 11px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="box">
+
+        <span>语文:</span>
+
+        <input type="" id="source" >
+
+        <input type="button" id="button" value="查询">
+
+        <span id="tip">* 输入内容不能为空</span>
+    </div>
+
+
+    <script>
+
+        window.onload = function() {
+
+            function $(id) { return document.getElementById(id); }
+
+            var button = $("button");
+
+            $("source").onkeyup = function() {
+
+                if (this.value.length > 0) {
+                    $("tip").style.display = "none"
+                }
+
+                var result = this.value;
+
+                if (isNaN(result)) {
+                    appearWith("* 请输入数字");
+                } else  {
+                    $("tip").style.display = "none"
+                    var numb = parseFloat(result);
+                    if (numb>150 || numb<0) {
+                        appearWith("* 请输入范围 0~150");
+                    } else {
+                        $("tip").style.display = "none"
+                    }
+                }
+
+
+
+
+            }
+
+            /// 失去焦点 是否为空 判断
+            $("source").onblur = function() {
+
+                if (this.value.length == 0) {
+                    appearWith("* 输入内容不能为空!!");
+                } else  {
+                    $("tip").style.display = "none"
+                }
+            }
+
+
+            function appearWith(string) {
+                $("tip").innerHTML = string;
+                $("tip").style.display = "inline-block";
+            }
+
+
+
+        }
+
+    </script>
+
+</body>
+</html>
