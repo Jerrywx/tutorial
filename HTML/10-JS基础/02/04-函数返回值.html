@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数返回值</title>
+
+    <style type="text/css">
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+
+
+    <script>
+
+        function $(idName) {
+            var target = document.getElementById(idName);
+            return target;
+        }
+
+        $("box1").style.backgroundColor = "red";
+        $("box2").style.backgroundColor = "green";
+        $("box3").style.backgroundColor = "blue";
+
+    </script>
+
+</body>
+</html>

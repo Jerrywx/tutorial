@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>显示盒子</title>
+
+    <style type="text/css">
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin: 20px;
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+
+    <button onclick="func('box1')">第1个按钮</button>
+    <button onclick="func('box2')">第2个按钮</button>
+    <button onclick="func('box3')">第3个按钮</button>
+    <button onclick="func('box4')">第4个按钮</button>
+    <div id="box1">Div1</div>
+    <div id="box2">Div2</div>
+    <div id="box3">Div3</div>
+    <div id="box4">Div4</div>
+
+    <script>
+
+        function func(box) {
+            var myBox = document.getElementById(box);
+//            myBox.style.display = 'block';
+
+            if (myBox.style.display == "") {
+                myBox.style.display = 'block';
+            } else {
+                myBox.style.display = '';
+            }
+
+        }
+
+
+    </script>
+
+
+</body>
+</html>
