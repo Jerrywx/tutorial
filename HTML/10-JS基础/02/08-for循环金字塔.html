@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>金字塔</title>
+</head>
+<body>
+
+
+    <ul>
+        <li>Test --+ </li>
+        <li>Test --+ </li>
+        <li>Test --+ </li>
+        <li>Test --+ </li>
+    </ul>
+
+    <script>
+
+        for (var i=0; i<10; i++) {
+            document.writeln("<br />");
+        }
+
+        for (var i=0; i<50; i++) {
+            document.writeln('<hr width="' + i*2 +'%"/>');
+        }
+
+
+        /// 根据标签名 获取 标签
+        var list = document.getElementsByTagName("li");
+        for (var i=0; i<list.length; i++) {
+            var li = list[i];
+            li.style.color = "red";
+        }
+
+
+    </script>
+
+</body>
+</html>

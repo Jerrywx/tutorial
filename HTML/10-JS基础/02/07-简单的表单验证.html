@@ -29,7 +29,7 @@
 
         <span>语文:</span>
 
-        <input type="" id="source" >
+        <input type="text" id="source" >
 
         <input type="button" id="button" value="查询">
 
@@ -38,14 +38,25 @@
 
 
     <script>
-
         window.onload = function() {
 
             function $(id) { return document.getElementById(id); }
 
             var button = $("button");
 
+            /// 自动获取焦点
+//            $("source").focus();
+
+            /// 鼠标经过获取焦点
+            $("source").onmouseover = function () {
+                this.select();
+            }
+            
+            $("tip").className = "wrong";
+
             $("source").onkeyup = function() {
+
+
 
                 if (this.value.length > 0) {
                     $("tip").style.display = "none"
@@ -64,10 +75,6 @@
                         $("tip").style.display = "none"
                     }
                 }
-
-
-
-
             }
 
             /// 失去焦点 是否为空 判断
@@ -80,14 +87,10 @@
                 }
             }
 
-
             function appearWith(string) {
                 $("tip").innerHTML = string;
                 $("tip").style.display = "inline-block";
             }
-
-
-
         }
 
     </script>
