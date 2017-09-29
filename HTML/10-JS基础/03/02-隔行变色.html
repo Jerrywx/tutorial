@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>隔行变色</title>
+
+    <style type="text/css">
+
+        .box {
+            margin: 100px auto;
+            width: 700px;
+        }
+
+        li {
+            display: block;
+            height: 30px;
+            line-height: 30px;
+        }
+
+    </style>
+
+    <script>
+
+        ///
+        function $(id) { return document.getElementById(id); }
+
+        window.onload = function () {
+
+            var list = document.getElementsByTagName("li");
+            for (var i=0, len = list.length; i<len; i++) {
+
+                if (i % 2 == 0) {
+                    list[i].style.backgroundColor = "#eee";
+                } else {
+                    list[i].style.backgroundColor = "#ddd";
+                }
+
+                list[i].onmouseover = function () {
+//                    list[i].className = "current";
+                    this.className = "current";
+                }
+
+
+                list[i].onmouseout = function () {
+                    list[i].style.className = "";
+                }
+
+            }
+        }
+
+    </script>
+
+
+</head>
+<body>
+
+    <div class="box">
+        <ul>
+
+            <li>
+                zongheng-2929  直接加入书架顺序错乱的问题
+            </li>
+
+            <li>
+                zongheng-2968  阅读进度云端同步 - 进度条提醒弹框UI处理
+            </li>
+
+            <li>
+                zongheng-2967  阅读进度云端同步 - 云同步发送接口逻辑处理
+            </li>
+
+            <li>
+                zongheng-2966  阅读进度云端同步 - 客户端
+            </li>
+
+            <li>
+                zongheng-2963  圈子搜索与书籍搜索合并 - 搜索UI调整
+            </li>
+
+            <li>
+                zongheng-2964  圈子搜索与书籍搜索合并 - 搜索接口接入
+            </li>
+
+            <li>
+                zongheng-2962  圈子搜索与书籍搜索合并 - 客户端
+            </li>
+
+            <li>
+                zongheng-2484  PC书评章评数据同步到圈子
+            </li>
+
+        </ul>
+
+    </div>
+</body>
+</html>

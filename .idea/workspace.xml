@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397c47e3-7233-4ac9-9423-61e1fbe925c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/10-JS基础/02/08-for循环金字塔.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/10-JS基础/03/01-淘宝输入框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/10-JS基础/03/02-隔行变色.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/10-JS基础/02/07-简单的表单验证.html" afterPath="$PROJECT_DIR$/HTML/10-JS基础/02/07-简单的表单验证.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,16 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="02-参数传参显示盒子.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/10-JS基础/02/02-参数传参显示盒子.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="03-鼠标展示Demo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/10-JS基础/02/03-鼠标展示Demo.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,11 +83,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="08-for循环金字塔.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="08-for循环金字塔.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/10-JS基础/02/08-for循环金字塔.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="345">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-淘宝输入框.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/10-JS基础/03/01-淘宝输入框.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02-隔行变色.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML/10-JS基础/03/02-隔行变色.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -115,16 +125,6 @@
       </file>
       <file leaf-file-name="01-消息提示.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/10-JS基础/01-消息提示.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02-js案例.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/10-JS基础/02-js案例.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -154,8 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/phpTest/10-sticky1.php" />
-        <option value="$PROJECT_DIR$/phpTest/13-mysql.html" />
         <option value="$PROJECT_DIR$/phpTest/13-mysql.php" />
         <option value="$PROJECT_DIR$/phpTest/13-add_entry.php" />
         <option value="$PROJECT_DIR$/phpTest/13-edit_entry.php" />
@@ -205,6 +203,8 @@
         <option value="$PROJECT_DIR$/HTML/10-JS基础/02/06-搜索框.html" />
         <option value="$PROJECT_DIR$/HTML/10-JS基础/02/07-简单的表单验证.html" />
         <option value="$PROJECT_DIR$/HTML/10-JS基础/02/08-for循环金字塔.html" />
+        <option value="$PROJECT_DIR$/HTML/10-JS基础/03/01-淘宝输入框.html" />
+        <option value="$PROJECT_DIR$/HTML/10-JS基础/03/02-隔行变色.html" />
       </list>
     </option>
   </component>
@@ -216,8 +216,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
-    <option name="y" value="23" />
+    <option name="x" value="529" />
+    <option name="y" value="158" />
     <option name="width" value="1382" />
     <option name="height" value="1129" />
   </component>
@@ -348,7 +348,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="02" />
+              <option name="myItemId" value="03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -505,12 +505,12 @@
       <workItem from="1504835488035" duration="15125000" />
       <workItem from="1505094455711" duration="67000" />
       <workItem from="1506566444448" duration="8644000" />
-      <workItem from="1506653813836" duration="4397000" />
+      <workItem from="1506653813836" duration="7295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104342000" />
+    <option name="totallyTimeSpent" value="107240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,8 +522,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="23" width="1382" height="1129" extended-state="0" />
-    <editor active="true" />
+    <frame x="529" y="158" width="1382" height="1129" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2101396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -582,20 +582,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PHP/AJAX/gethint.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/AJAX/json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/phpbasic/02-override.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -921,8 +907,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/10-JS基础/02/08-for循环金字塔.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="345">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/10-JS基础/03/01-淘宝输入框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/10-JS基础/03/02-隔行变色.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding />
         </state>
       </provider>
