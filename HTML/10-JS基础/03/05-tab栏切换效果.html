@@ -3,8 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <title>tab栏切换效果</title>
+
+    <style type="text/css">
+
+        .box {
+            margin: 100px auto;
+            height: 430px;
+            width: 400px;
+            border:1px solid #ccc;
+        }
+
+        .top {
+            height: 30px;
+            background-color: yellow;
+        }
+
+        .botton div {
+            width: 400px;
+            height: 400px;
+            display: none;
+            background-color: red;
+        }
+
+        .selected {
+            background-color: yellow;
+            color: red;
+        }
+
+
+    </style>
+
+
+    <script>
+
+        window.onload = function () {
+
+            ///
+            var buttons = document.getElementsByTagName("button");
+
+            var divs = document.getElementById("divs").getElementsByTagName("div");
+
+            buttons[0].className = "selected";
+
+            for (var i=0; i<buttons.length; i++) {
+                var button = buttons[i];
+                button.tag = i;
+                ///
+                button.onclick = function () {
+
+                    for (var i=0; i<buttons.length; i++) {
+                        var button = buttons[i];
+                        button.className = "";
+
+                        var d = divs[i];
+                        d.style.display = "none";
+                    }
+
+                    this.className = "selected";
+                    divs[this.tag].style.display = "block";
+                }
+
+            }
+
+        }
+
+
+    </script>
+
+
 </head>
 <body>
+
+    <div class="box">
+
+        <div class="top">
+            <button>第一个</button>
+            <button>第二个</button>
+            <button>第三个</button>
+            <button>第四个</button>
+            <button>第五个</button>
+
+        </div>
+
+        <div class="botton" id="divs">
+            <div style="display: block">第一个卡片</div>
+            <div>第二个卡片</div>
+            <div>第三个卡片</div>
+            <div>第四个卡片</div>
+            <div>第五个卡片</div>
+        </div>
+
+    </div>
+
 
 </body>
 </html>
