@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉菜单</title>
+
+    <style type="text/css">
+        body {
+            background: url("images/chun1.jpg");
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <select name=""id="select">
+
+        <option value="1">春意绵绵</option>
+        <option value="2">夏日绵绵</option>
+        <option value="3">秋风瑟瑟</option>
+        <option value="4">冬雪皑皑</option>
+
+    </select>
+
+    <script>
+
+        window.onload = function () {
+            var sel = document.getElementById("select");
+            sel.onchange = function () {
+                var picName = "url(images/chun" + this.value + ".jpg)";
+                document.body.style.backgroundImage = picName;
+            }
+        }
+
+    </script>
+
+
+</body>
+</html>
