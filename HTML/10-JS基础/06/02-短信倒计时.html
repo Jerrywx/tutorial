@@ -37,10 +37,12 @@
     <script>
 
         var post = document.getElementById("post");
+
+
         post.onclick = function () {
             var time = 5;
             post.innerHTML = "发送中" + time;
-            this.display = true;
+            post.disabled = true;
             var timer = setInterval(function () {
 
                 time--;
@@ -48,7 +50,7 @@
                 if (time <= 0) {
                     post.innerHTML = "点击发送短信";
                     clearInterval(timer);
-                    this.display = false;
+                    post.disabled = false;
                 }
 
             }, 1000);
