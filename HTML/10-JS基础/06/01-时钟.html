@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时钟</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .clock {
+            width: 600px;
+            height: 600px;
+            margin: 20px auto;
+            background: url("images/clock.jpg");
+            position: relative;
+        }
+
+        .clock div {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            left: 0px;
+        }
+
+        .h {
+            background: url("images/hour.png") center no-repeat;
+        }
+
+        .m {
+            background: url("images/minute.png") center no-repeat;
+        }
+
+        .s {
+            background: url("images/second.png") center no-repeat;
+        }
+
+    </style>
+
+
+    <script>
+
+        window.onload = function () {
+
+            var hour = document.getElementsByClassName("h")[0];
+            var minute = document.getElementsByClassName("m")[0];
+            var second = document.getElementsByClassName("s")[0];
+
+            var h = 0, m = 0, s = 0, ms = 0;
+            setInterval(function () {
+                var date = new Date();
+
+                ms = date.getMilliseconds();
+                s = date.getSeconds() + ms / 1000 ;
+                m = date.getMinutes() + s / 60;
+                h = date.getHours() % 12 + m / 60;
+
+
+
+                /// s: 360  6000   0.06度
+                /// m: 360  60    6
+                second.style.webkitTransform = "rotate(" + s * 6 + "deg)";
+                minute.style.webkitTransform = "rotate(" + m * 6 + "deg)";
+                hour.style.webkitTransform = "rotate(" + h * 30 + "deg)";
+            }, 50);
+
+
+
+//            setInterval(click, 30);
+//
+//            function click() {
+//                var date = new Date();
+//
+//                h = date.getHours();
+//                m = date.getMinutes();
+//                s = date.getSeconds();
+//
+//                /// s: 360  60   6度
+//                second.style.webkitTransform = "rotate(" + s * 2 + "deg)";
+//
+//
+////                console.log(h + "  " + m + "  " + s);
+//            }
+        }
+
+
+    </script>
+
+</head>
+<body>
+
+    <div class="clock">
+        <div class="h"></div>
+        <div class="m"></div>
+        <div class="s"></div>
+    </div>
+
+</body>
+</html>

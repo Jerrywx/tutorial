@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择</title>
+
+    <script>
+
+        function $(id) { return document.getElementById(id); }
+
+        window.onload = function () {
+
+            $("all").onclick = function () {
+                setDisplay(true);
+            }
+
+            $("cancle").onclick = function () {
+                setDisplay(false);
+            }
+
+            $("diff").onclick = function () {
+                setDisplay();
+            }
+
+            ///
+            function setDisplay(bol) {
+                var list = document.getElementsByTagName("input");
+                for (var i=0; i<list.length; i++) {
+
+                    if (bol == undefined) {
+                        list[i].checked = !list[i].checked;
+                    } else  {
+                        list[i].checked = bol;
+                    }
+                }
+            }
+        }
+
+
+
+
+    </script>
+
+
+</head>
+<body>
+
+    <div class="buttons">
+        <button id="all">全选</button>
+        <button id="cancle">取消</button>
+        <button id="diff">反选</button>
+    </div>
+
+    <div class="list">
+
+        <ul>
+
+            <li>选项: <input type="checkbox" id="che"> </li>
+            <li>选项: <input type="checkbox"> </li>
+            <li>选项: <input type="checkbox"> </li>
+            <li>选项: <input type="checkbox"> </li>
+            <li>选项: <input type="checkbox"> </li>
+            <li>选项: <input type="checkbox"> </li>
+            <li>选项: <input type="checkbox"> </li>
+            <li>选项: <input type="checkbox"> </li>
+            <li>选项: <input type="checkbox"> </li>
+
+        </ul>
+
+    </div>
+
+
+
+</body>
+</html>

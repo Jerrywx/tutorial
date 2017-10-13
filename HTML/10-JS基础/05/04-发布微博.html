@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发布微博</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box {
+            width: 540px;
+            border: 1px solid gray;
+            margin: 50px auto;
+            padding-bottom: 10px;
+        }
+
+        .content {
+            width: 400px;
+            height: 150px;
+            resize: none;
+        }
+
+
+        .ul {
+            list-style: none;
+            padding-left: 80px;
+            padding-right: 65px;
+        }
+
+        .ul li {
+            border-bottom: 1px dashed #333;
+            line-height: 40px;
+            position: relative;
+        }
+
+        .del {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            right: 0px;
+            border: none;
+            background: white;
+        }
+
+
+    </style>
+
+    <script >
+
+        window.onload = function () {
+
+            var list = document.createElement("ul");
+            list.className = "ul";
+            var box = document.getElementsByClassName("box")[0];
+            box.appendChild(list);
+
+
+            var content = document.getElementsByClassName("content")[0];
+
+            var post = document.getElementById("post");
+
+            post.onclick = function () {
+
+                var liArray = list.getElementsByTagName("li");
+
+                if (content.value.length == 0) {
+                    alert("微博内容不能为空!!!");
+                    return;
+                }
+
+                var li = document.createElement("li");
+                list.appendChild(li);
+
+                var span = document.createElement("span");
+                span.innerHTML = content.value;
+                li.appendChild(span);
+
+                var button = document.createElement("button");
+                button.className = "del";
+                button.innerHTML = "删除";
+                button.index     = liArray.length;
+                li.appendChild(button);
+
+                button.onclick = function () {
+//                    var liArray = list.getElementsByTagName("li");
+//                    var p = liArray[this.index - 1];
+                    var p = this.parentNode;
+                    list.removeChild(p);
+                }
+                content.value = "";
+            }
+
+        }
+
+    </script>
+
+
+</head>
+<body>
+
+    <div class="box">
+
+        <span>
+            微博发布:
+        </span>
+
+        <textarea class="content"></textarea>
+
+        <button id="post">发布微博</button>
+
+        <!--<ul class="ul">-->
+            <!--<li>-->
+                <!--<span>-->
+                    <!--asdasdasd-->
+                <!--</span>-->
+
+                <!--<button class="del">-->
+                    <!--删除-->
+                <!--</button>-->
+            <!--</li>-->
+            <!--<li>asdasdasd</li>-->
+            <!--<li>asdasdasd</li>-->
+            <!--<li>asdasdasd</li>-->
+
+        <!--</ul>-->
+
+
+    </div>
+
+</body>
+</html>

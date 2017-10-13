@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TAB栏封装</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box {
+            width: 400px;
+            height: 230px;
+            border: 1px solid #ccc;
+            margin: 50px auto;
+            overflow: hidden;
+        }
+
+        .top span {
+            display: inline-block;
+            padding-left: 15px;
+            padding-right: 15px;
+            height: 30px;
+            line-height: 30px;
+            background-color: yellow;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li div {
+            width: 400px;
+            height: 200px;
+            background-color: red;
+            /*display: none;*/
+        }
+        .select {
+            color: red;
+        }
+
+    </style>
+
+
+    <script>
+
+        window.onload = function () {
+
+            function card(id) {
+
+                var box = document.getElementById(id);
+
+                /// 按钮s
+                var buttons = box.getElementsByTagName("span");
+                /// divs
+                var divs = box.getElementsByTagName("li");
+
+                for (var i=0; i<buttons.length; i++) {
+
+                    var button = buttons[i];
+                    button.tag = i;
+
+                    button.onmousemove = function () {
+
+                        for (var i=0; i<buttons.length; i++) {
+                            var btn = buttons[i];
+                            var d = divs[i];
+                            btn.className = "";
+                            d.style.display = "none";
+                        }
+                        var d = divs[this.tag];
+                        d.style.display = "inline-block";
+                        this.style.className = "select";
+                    }
+                }
+            }
+
+            card("one");
+            card("two");
+        }
+
+
+    </script>
+
+</head>
+<body>
+
+<div id="one" class="box">
+
+    <div class="top">
+        <span>游戏</span>
+        <span>新网游</span>
+        <span>新手卡</span>
+        <span>有奖活动</span>
+        <span>手游</span>
+    </div>
+
+    <ul>
+
+        <li>
+            <div style="display: inline-block">游戏</div>
+        </li>
+
+        <li>
+            <div>新网游</div>
+        </li>
+
+        <li>
+            <div>新手卡</div>
+        </li>
+
+        <li>
+            <div>有奖活动</div>
+        </li>
+
+        <li>
+            <div>手游</div>
+        </li>
+
+    </ul>
+
+</div>
+
+
+<div id="two" class="box">
+
+    <div class="top">
+        <span>游戏</span>
+        <span>新网游</span>
+        <span>新手卡</span>
+        <span>有奖活动</span>
+        <span>手游</span>
+    </div>
+
+    <ul>
+
+        <li>
+            <div style="display: block">游戏</div>
+        </li>
+
+        <li>
+            <div>新网游</div>
+        </li>
+
+        <li>
+            <div>新手卡</div>
+        </li>
+
+        <li>
+            <div>有奖活动</div>
+        </li>
+
+        <li>
+            <div>手游</div>
+        </li>
+
+    </ul>
+
+    <!--<div class="botton">-->
+
+        <!--<div style="display: block">游戏</div>-->
+        <!--<div>新网游</div>-->
+        <!--<div>新手卡</div>-->
+        <!--<div>有奖活动</div>-->
+        <!--<div>手游</div>-->
+
+    <!--</div>-->
+
+</div>
+
+
+</body>
+</html>

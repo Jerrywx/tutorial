@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>节点操作</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box {
+            border: 1px solid gray;
+            width: 400px;
+            height: 600px;
+            margin: 20px auto;
+            overflow: scroll;
+        }
+
+        .option {
+            width: 400px;
+            height: 30px;
+            background-color: yellow;
+
+        }
+
+        button {
+            display: inline-block;
+            width: 80px;
+            height: 20px;
+        }
+
+        .option {
+            text-align: center;
+        }
+
+
+    </style>
+
+
+    <script>
+
+        window.onload = function () {
+
+            var add = document.getElementById("add");
+            var del = document.getElementById("del");
+
+            var content = document.getElementById("content");
+            var list = content.getElementsByTagName("p");
+
+
+
+            add.onclick = function () {
+
+                var cont = document.createElement("p");
+                cont.innerHTML = "这个是内容....." + (list.length + 1);
+                content.appendChild(cont);
+            }
+
+            del.onclick = function () {
+                var list = content.getElementsByTagName("p");
+                if (list.length == 0) {
+                    alert("已经全部删除!!");
+                } else  {
+                    var sp = list[list.length - 1];
+                    content.removeChild(sp);
+                }
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+
+    <div class="box">
+
+        <div class="option">
+
+            <button id="add">添加信息</button>
+            <button id="del">删除信息</button>
+
+        </div>
+
+        <div id="content">
+
+        </div>
+
+    </div>
+
+</body>
+</html>

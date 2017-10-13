@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>匀速滚动</title>
+
+    <style type="text/css">
+        #box {
+            width: 150px;
+            height: 150px;
+            background-color: pink;
+            position: absolute;
+            top: 100px;
+        }
+
+        body {
+            position: relative;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <button id="start">开始</button>
+
+    <div id="box">
+
+    </div>
+
+    <script>
+
+        var button = document.getElementById("start");
+        var box = document.getElementById("box");
+        var num = 0
+        button.onclick = function () {
+
+            var timer = setInterval(function () {
+                num++;
+                box.style.left = num + "px";
+                if (num > 1000) {
+                    clearInterval(timer);
+                }
+
+            }, 10);
+
+        }
+
+    </script>
+</body>
+</html>

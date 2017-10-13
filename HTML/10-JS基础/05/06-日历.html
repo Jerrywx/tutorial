@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日历</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box {
+            width: 150px;
+            height: 170px;
+            background-color: #369;
+            margin: 20px auto;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+            font-size: 10px;
+            /*display: inline-block;*/
+            height: 20px;
+            width: 150px;
+            line-height: 20px;
+            background: green;
+        }
+
+        span {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            text-align: center;
+            line-height: 100px;
+            font-size: 60px;
+            margin: 25px 25px;
+        }
+
+    </style>
+
+    <script>
+        window.onload = function () {
+
+            var span = document.getElementsByTagName("span")[0];
+            var p = document.getElementsByTagName("p")[0];
+            var data = new Date();
+            span.innerHTML = data.getDate();
+
+            /// 年月日 星期
+            var year = data.getFullYear();
+            var month = data.getMonth() + 1;
+            var day = data.getDate();
+            var s = data.getDay();
+            var dd = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期天"];
+            var dateString = year + "年" + month + "月" + day + "日" + dd[s];
+            p.innerHTML = dateString;
+        }
+    </script>
+
+
+
+</head>
+<body>
+
+    <div class="box">
+
+        <p>
+        </p>
+
+        <span>
+
+        </span>
+
+    </div>
+
+</body>
+</html>

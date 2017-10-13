@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>删除插入节点</title>
+</head>
+<body>
+
+    <!-- dom 的节点操作
+    1、添加节点
+    2、删除节点
+     -->
+
+    <div id="demo">
+
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="three"></div>
+
+    </div>
+
+
+    <script>
+        var demo = document.getElementById("demo");
+        var add = document.createElement("div");
+//        add.setIdAttribute("test");
+        add.id = "test";
+//        demo.appendChild(add);
+
+
+        var two = document.getElementById("two");
+        demo.insertBefore(add, two);
+
+    </script>
+
+</body>
+</html>

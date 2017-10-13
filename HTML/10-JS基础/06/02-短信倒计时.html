@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>短信倒计时</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box {
+            width: 250px;
+            height: 40px;
+            margin: 100px auto;
+        }
+
+        #post {
+            display: inline-block;
+            height: 20px;
+            width: 100px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="box">
+        <input type="text">
+        <button id="post">点击发送短信</button>
+    </div>
+
+    <script>
+
+        var post = document.getElementById("post");
+
+
+        post.onclick = function () {
+            var time = 5;
+            post.innerHTML = "发送中" + time;
+            post.disabled = true;
+            var timer = setInterval(function () {
+
+                time--;
+                post.innerHTML = "发送中" + time;
+                if (time <= 0) {
+                    post.innerHTML = "点击发送短信";
+                    clearInterval(timer);
+                    post.disabled = false;
+                }
+
+            }, 1000);
+
+        }
+        
+        function wait() {
+            
+        }
+
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无缝滚动</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box {
+            width: 400px;
+            height: 200px;
+            border: 2px solid red;
+            margin: 100px auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .content {
+            width: 1500px;
+            height: 200px;
+            position: absolute;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            float: left;
+        }
+
+    </style>
+
+    <script>
+
+        window.onload = function () {
+
+            var box = document.getElementsByClassName("box")[0];
+            var content = document.getElementsByClassName("content")[0];
+            var left = 0;
+//            var timer = setInterval(function () {
+//                left--;
+//                if (left <= -900) {
+//                    left = 0;
+//                }
+//                content.style.left = left + "px";
+//            }, 1);
+
+            var timer = setInterval(animation, 1);
+
+            function animation() {
+                left--;
+                if (left <= -900) {
+                    left = 0;
+                }
+                content.style.left = left + "px";
+            }
+
+
+
+            /// 鼠标进入
+            box.onmouseover = function () {
+                clearInterval(timer);
+            }
+
+            /// 鼠标移除
+            box.onmouseout = function () {
+                timer = setInterval(animation, 1);
+            }
+
+        }
+
+    </script>
+
+</head>
+<body>
+
+
+    <div class="box">
+
+        <div class="content">
+            <ul>
+                <li>
+                    <img src="images/01.jpg">
+                </li>
+                <li>
+                    <img src="images/02.jpg">
+                </li>
+                <li>
+                    <img src="images/03.jpg">
+                </li>
+                <li>
+                    <img src="images/01.jpg">
+                </li>
+                <li>
+                    <img src="images/02.jpg">
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
