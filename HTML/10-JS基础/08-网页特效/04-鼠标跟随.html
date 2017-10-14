@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>跟随鼠标</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        img {
+            width: 80px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <img src="images/img.jpg">
+
+
+    <script>
+
+        /// 图片
+        var img = document.getElementsByTagName("img")[0];
+
+//        document.onclick = function (event) {
+//
+//            var event = event || window.event;
+//
+//            var width = img.offsetWidth * 0.5;
+//            var height = img.offsetHeight * 0.5;
+//
+//            var x = event.clientX - width;
+//            var y = event.clientY - height;
+//
+//            img.style.left = x + "px";
+//            img.style.top = y + "px";
+//
+//        }
+
+        document.onclick = function(event) {
+            var event = event || window.event;
+            targetX = event.clientX - img.offsetWidth /2;
+            targetY = event.clientY - img.offsetHeight /2;
+        }
+        // 缓动
+        var     leaderX = 0,
+                leaderY= 0,
+                targetX = 0,
+                targetY = 0;
+        setInterval(function() {
+            leaderX = leaderX + (targetX - leaderX) / 10;
+            leaderY = leaderY + (targetY - leaderY) / 10;
+            img.style.left = leaderX + "px";
+            img.style.top = leaderY + "px";
+        },10)
+
+
+    </script>
+
+</body>
+</html>

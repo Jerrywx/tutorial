@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>筋斗云效果</title>
+
+    <style type="text/css">
+
+        * { margin: 0; padding: 0; }
+
+        ul { list-style: none;}
+
+        body {
+            background-color: #333;
+        }
+
+        .box {
+            width: 800px;
+            height: 42px;
+            background-color: #fff;
+            margin: 100px auto;
+            border-radius: 5px;
+            background: url("images/rss.png") no-repeat right #fff;
+            position: relative;
+        }
+
+        .cloud {
+            display: inline-block;
+            width: 82px;
+            height: 42px;
+            background: url("images/cloud.gif") no-repeat center;
+            /*background-color: red;*/
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        .box ul {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+
+        }
+
+        li {
+            float: left;
+            display: inline-block;
+            width: 82px;
+            height: 42px;
+            line-height: 42px;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="box">
+        <span class="cloud"></span>
+        <ul>
+            <li>
+                首页新闻
+            </li>
+            <li>
+                首页新闻
+            </li>
+            <li>
+                首页新闻
+            </li>
+            <li>
+                首页新闻
+            </li>
+            <li>
+                首页新闻
+            </li>
+            <li>
+                首页新闻
+            </li>
+            <li>
+                首页新闻
+            </li>
+            <li>
+                首页新闻
+            </li>
+
+        </ul>
+    </div>
+
+    <script>
+
+        var list = document.getElementsByTagName("li");
+
+        var cloud = document.getElementsByClassName("cloud")[0];
+
+        for (var i=0; i<list.length; i++) {
+            var item = list[i];
+            item.index = i;
+
+            var timer;
+
+            item.onmouseover = function () {
+
+                var width = 82;
+                var start = cloud.offsetLeft;
+                var end = width * this.index;
+                var way = (end - start) / 100;
+
+                clearInterval(timer);
+                timer = setInterval(function () {
+
+                    start = start + way;
+
+                    cloud.style.left = start + "px";
+
+                    if (way > 0) {
+                        if (start >= end) {
+                            clearInterval(timer);
+                        }
+                    } else  {
+                        if (start <= end) {
+                            clearInterval(timer);
+                        }
+                    }
+                }, 1);
+
+            }
+        }
+
+
+    </script>
+
+</body>
+</html>
