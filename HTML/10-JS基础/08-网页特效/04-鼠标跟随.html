@@ -44,7 +44,9 @@
 //
 //        }
 
-        document.onclick = function(event) {
+        var body = document.getElementsByTagName("body")[0];
+
+        body.onmouseover = function(event) {
             var event = event || window.event;
             targetX = event.clientX - img.offsetWidth /2;
             targetY = event.clientY - img.offsetHeight /2;

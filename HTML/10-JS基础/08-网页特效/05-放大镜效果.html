@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>放大镜效果</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #tip {
+            width: 100px;
+            height: 40px;
+            background-color: yellow;
+        }
+
+        .box {
+            width: 350px;
+            height: 350px;
+            margin: 100px;
+            border: 1px solid #ccc;
+            position: relative;
+        }
+
+        .small {
+            width: 350px;
+            height: 350px;
+            position: relative;
+            cursor: move;
+        }
+
+        .mask {
+            width: 200px;
+            height: 200px;
+            background-color: rgba(255, 255, 0, 0.4);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+        .big {
+            position: absolute;
+            width: 450px;
+            height: 450px;
+            border: 1px solid #ccc;
+            top: 0px;
+            left: 360px;
+            overflow: hidden;
+        }
+
+        #bigImage {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+    </style>
+
+    <script>
+
+        window.onload = function () {
+
+            var tip = document.getElementById("tip");
+
+            var small = document.getElementsByClassName("small")[0];
+
+            var mask = document.getElementsByClassName("mask")[0];
+
+            var big = document.getElementsByClassName("big")[0];
+
+            big.style.display = "none";
+
+
+            var bigImage = document.getElementById("bigImage");
+
+            small.onmousemove = function (event) {
+                var event = event || window.event;
+
+                var w = mask.offsetWidth * 0.5;
+                var h = mask.offsetHeight * 0.5;
+
+                var minx = this.offsetParent.offsetLeft - w;
+                var miny = this.offsetParent.offsetTop - h;
+
+                var x = event.clientX - this.offsetParent.offsetLeft - w;
+                var y = event.clientY - this.offsetParent.offsetTop - h;
+
+                if (x <=0) {
+                    x = 0;
+                }
+
+                if (y <= 0) {
+                    y = 0;
+                }
+
+                if (x >= this.offsetWidth - w * 2) {
+                    x = this.offsetWidth - w * 2;
+                }
+
+                if (y >= this.offsetHeight - h * 2) {
+                    y = this.offsetHeight - h * 2;
+                }
+
+                tip.innerHTML  =this.offsetWidth + "  " + this.offsetHeight;
+
+                mask.style.left = x + "px";
+                mask.style.top = y + "px";
+
+                bigImage.style.left = -x * 800 / 350 + "px";
+                bigImage.style.top = -y * 800 / 350 + "px";
+
+            }
+
+
+            small.onmouseover = function () {
+                big.style.display = "block";
+            }
+            
+            small.onmouseout = function () {
+                big.style.display = "none";
+            }
+        }
+
+
+    </script>
+
+</head>
+<body>
+
+<div id="tip"></div>
+
+<div class="box">
+
+    <div class="small">
+        <img src="images/001.jpg">
+        <div class="mask"></div>
+    </div>
+
+    <div class="big">
+        <img id="bigImage" src="images/0001.jpg">
+    </div>
+
+</div>
+
+</body>
+</html>
