@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水平滚动条</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .slider {
+            width: 800px;
+            height: 8px;
+            background-color: #ccc;
+            margin: 100px auto;
+            position: relative;
+        }
+
+        .bar {
+            position: absolute;
+            width: 10px;
+            height: 22px;
+            top: -7px;
+            left: 0px;
+            background-color: blue;
+        }
+
+
+        #slid {
+            width: 200px;
+            height: 30px;
+            background-color: yellow;
+        }
+    </style>
+
+
+    <script >
+
+        window.onload = function () {
+
+            var bar = document.getElementsByClassName("bar")[0];
+            var slider = document.getElementsByClassName("slider")[0];
+
+            var ttt = document.getElementById("slid");
+
+            bar.onmousedown = function () {
+
+                document.onmousemove = function (event) {
+                    var event = event || window.event;
+                    var x = event.clientX - bar.offsetParent.offsetLeft;
+                    bar.style.left = x + "px";
+                }
+            }
+
+            document.onmouseup = function () {
+                document.onmousemove = null
+            }
+
+//            bar.onmouseover = function () {
+//                slider.onmousemove = function () {
+//                }
+//            }
+
+
+//
+//            slider.onmouseout = function () {
+//                slider.onmousemove = function () {
+//                }
+//            }
+
+        }
+
+    </script>
+
+</head>
+<body>
+
+    <div id="slid"></div>
+
+    <div class="slider">
+        <div class="bar"></div>
+    </div>
+
+
+</body>
+</html>
