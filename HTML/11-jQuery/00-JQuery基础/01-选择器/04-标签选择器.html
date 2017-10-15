@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标签选择器</title>
+
+    <style type="text/css">
+        ul {
+            list-style: none;
+        }
+    </style>
+
+    <script src="../../jquery.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            /// 标签选择器
+            $("p").css("background-color", "yellow");
+
+            /// 选择第一个标签选择器
+            $("p:first").css("background-color", "red");
+
+            /// 选择最后一个标签选择器
+            $("p:last").css("background-color", "green");
+
+            /// 偶数
+            $("li:even").css("background-color", "red");
+
+            /// 奇数
+            $("li:odd").css("background-color", "yellow");
+
+
+        });
+
+    </script>
+
+</head>
+<body>
+
+    <p>第1个标签选择器</p>
+    <p>第2个标签选择器</p>
+    <p>第3个标签选择器</p>
+    <p>第4个标签选择器</p>
+
+    <ul>
+        <li>AAAAA</li>
+        <li>AAAAA</li>
+        <li>AAAAA</li>
+        <li>AAAAA</li>
+        <li>AAAAA</li>
+        <li>AAAAA</li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>class选择器</title>
+
+    <script src="../../jquery.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            /// class 为 intro 的元素
+            $(".intro").css("background-color", "yellow");
+
+            /// class 为 one 且同时为 two 的元素
+            $(".one.two").css("background-color", "green");
+
+            /// class 中的第二个
+            $(".intro:eq(1)").css("background-color", "pink");
+
+        });
+
+    </script>
+
+</head>
+<body>
+
+<h1>Welcome to My Homepage</h1>
+<p class="intro">My name is Donald</p>
+<p class="one two">I live in Duckburg</p>
+<p class="intro">My best friend is Mickey</p>
+<div id="choose">
+    Who is your favourite:
+    <ul>
+        <li>Goofy</li>
+        <li>Mickey</li>
+        <li>Pluto</li>
+    </ul>
+</div>
+
+
+
+
+</body>
+</html>

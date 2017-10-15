@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表相关</title>
+
+    <style type="text/css">
+        ul {
+            list-style: none;
+        }
+    </style>
+
+    <script src="../../jquery.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            /// 设置 第4个元素
+            $("li:eq(3)").css("background-color", "yellow");
+
+            /// 设置 前2个元素
+            $("li:lt(2)").css("background-color", "yellow");
+
+            /// 设置 5个元素后的所有元素
+            $("li:gt(4)").css("background-color", "red");
+
+        });
+
+    </script>
+
+</head>
+<body>
+
+<ul>
+
+    <li id="list">
+        AAAAAAAAAA
+    </li>
+    <li>
+        AAAAAAAAAA
+    </li>
+    <li>
+        AAAAAAAAAA
+    </li>
+    <li>
+        AAAAAAAAAA
+    </li>
+    <li>
+        AAAAAAAAAA
+    </li>
+    <li>
+        AAAAAAAAAA
+    </li>
+    <li>
+        AAAAAAAAAA
+    </li>
+</ul>
+
+</body>
+</html>
