@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box {
+            width: 490px;
+            height: 170px;
+            margin: 100px auto;
+            border: 2px solid red;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #content {
+            height: 100%;
+            width: 2940px;
+            position: absolute;
+        }
+
+        #item {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        #item span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: pink;
+            margin-left: 4px;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            float: left;
+        }
+
+    </style>
+
+    <script>
+
+        window.onload = function () {
+
+            /// 外层盒子
+            var box = document.getElementsByClassName("box")[0];
+            /// 轮播图片
+            var content = document.getElementById("content");
+            /// 轮播 标识 列表
+            var list = document.getElementsByTagName("span");
+            /// 设置 第一个 为选中
+            list[0].style.backgroundColor = "white";
+
+
+            /// 遍历 设置标识动作
+            for (var i=0; i<list.length; i++) {
+
+                var tip = list[i];
+                tip.index = i;
+
+                /// 设置鼠标滑过标识动作
+                tip.onmouseover = function () {
+                    for (var i=0; i<list.length; i++) {
+                        var tip = list[i];
+                        tip.style.backgroundColor = "pink";
+                    }
+                    this.style.backgroundColor = "white";
+
+                    content.style.left = this.index * -490 + "px";
+                }
+            }
+
+            /// 定时器操作
+            var num = 0;
+            var timer = setInterval(change, 3000);
+
+            /// 切换轮播
+            function change() {
+                num++;
+                var count = num % 5;
+
+                /// 轮播动画
+
+                if (count == 0) {
+                    content.style.left = count * -490 + "px";
+                } else {
+                    var position = count * -490;
+                    var curent = (count - 1) * -490;
+
+                    var tim = setInterval(function () {
+                        curent -= 10;
+                        content.style.left = curent + "px";
+                        if (curent <= position) {
+                            clearInterval(tim);
+                        }
+                    },10);
+                }
+
+                /// 设置标识状态
+                var tip = list[count];
+                for (var a=0; a<list.length; a++) {
+                    var t = list[a];
+                    t.style.backgroundColor = "pink";
+                }
+                tip.style.backgroundColor = "white";
+            }
+
+            ////
+
+
+
+            ///
+            box.onmouseover = function () {
+                clearInterval(timer);
+            }
+
+            box.onmouseout = function () {
+                timer = setInterval(change, 3000);
+            }
+
+
+
+
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+
+    <div class="box">
+
+        <div id="content">
+
+            <ul>
+                <li>
+                    <img src="images/l01.jpg">
+                </li>
+                <li>
+                    <img src="images/l02.jpg">
+                </li>
+                <li>
+                    <img src="images/l03.jpg">
+                </li>
+                <li>
+                    <img src="images/l04.jpg">
+                </li>
+                <li>
+                    <img src="images/l05.jpg">
+                </li>
+                <li>
+                    <img src="images/l01.jpg">
+                </li>
+            </ul>
+        </div>
+
+        <div id="item">
+
+            <ul>
+                <li>
+                        <span>
+                            1
+                        </span>
+                </li>
+                <li>
+                        <span>
+                            2
+                        </span>
+                </li>
+                <li>
+                        <span>
+                            3
+                        </span>
+                </li>
+                <li>
+                        <span>
+                            4
+                        </span>
+                </li>
+                <li>
+                        <span>
+                            5
+                        </span>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
