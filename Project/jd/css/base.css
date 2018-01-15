@@ -175,4 +175,28 @@ s,i,em{font-style:normal;text-decoration:none;}
 }
 
 
+.dt {
+    padding: 0px 25px 0px 10px;
+    position: relative;
+}
+
+.dt i {
+    display: block;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    overflow: hidden;
+    right: 2px;
+    top: 12px;
+}
+
+.dt s {
+    display: block;
+    height: 15px;
+    width: 15px;
+    /*font: normal bold 15px/15px arial,sans-serif;*/
+    position: relative;
+    top: -7px;
+}
+
 
