@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397c47e3-7233-4ac9-9423-61e1fbe925c2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/jd/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/jd/images/dong.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/jd/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/jd/images/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/jd/images/topbanner.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/jd/css/base.css" afterPath="$PROJECT_DIR$/Project/jd/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/jd/index.html" afterPath="$PROJECT_DIR$/Project/jd/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,21 +46,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/jd/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="391">
+              <caret line="59" column="20" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="20" />
+              <folding>
+                <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#589#595#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project/jd/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="2" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="2" />
+            <state relative-caret-position="486">
+              <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+              <folding>
+                <element signature="e#3437#3529#0" expanded="false" />
+                <element signature="e#3552#3611#0" expanded="false" />
+                <element signature="e#3627#3762#0" expanded="false" />
+                <element signature="e#3778#3925#0" expanded="false" />
+                <element signature="e#3934#3977#0" expanded="false" />
+                <element signature="e#3989#4120#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project/jd/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,8 +157,8 @@
         <option value="$PROJECT_DIR$/HTML/11-jQuery/00-JQuery基础/02-事件/01-click事件.html" />
         <option value="$PROJECT_DIR$/Project/jd/note" />
         <option value="$PROJECT_DIR$/Project/jd/css/index.css" />
-        <option value="$PROJECT_DIR$/Project/jd/css/base.css" />
         <option value="$PROJECT_DIR$/Project/jd/index.html" />
+        <option value="$PROJECT_DIR$/Project/jd/css/base.css" />
       </list>
     </option>
   </component>
@@ -225,6 +252,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Documents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Documents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Documents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Documents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -242,17 +313,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Project/jd" />
-      <recent name="$PROJECT_DIR$/HTML/10-JS基础/02" />
-      <recent name="$PROJECT_DIR$/HTML/07-盒子/image" />
-      <recent name="$PROJECT_DIR$/HTML/06-浮动定位/xiaomi" />
-      <recent name="$PROJECT_DIR$/HTML/06-浮动定位/image" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/HTML/08-新闻案例/images" />
       <recent name="$PROJECT_DIR$/HTML/05-盒子模型" />
       <recent name="$PROJECT_DIR$/HTML/06-浮动定位/image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Project/jd/images" />
+      <recent name="$PROJECT_DIR$/Project/jd" />
+      <recent name="$PROJECT_DIR$/HTML/10-JS基础/02" />
+      <recent name="$PROJECT_DIR$/HTML/07-盒子/image" />
+      <recent name="$PROJECT_DIR$/HTML/06-浮动定位/xiaomi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -386,12 +457,12 @@
       <workItem from="1508118490689" duration="1870000" />
       <workItem from="1508152582811" duration="77000" />
       <workItem from="1515992411379" duration="3572000" />
-      <workItem from="1516069489535" duration="19000" />
+      <workItem from="1516069489535" duration="2381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113477000" />
+    <option name="totallyTimeSpent" value="115839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,14 +475,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="139" width="1535" height="1013" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18890357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2529859" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2529859" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -651,6 +722,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="285" column="31" selection-start-line="285" selection-start-column="31" selection-end-line="285" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -770,6 +842,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -783,17 +856,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project/jd/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="391">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#589#595#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Project/jd/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="486">
+          <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+          <folding>
+            <element signature="e#3437#3529#0" expanded="false" />
+            <element signature="e#3552#3611#0" expanded="false" />
+            <element signature="e#3627#3762#0" expanded="false" />
+            <element signature="e#3778#3925#0" expanded="false" />
+            <element signature="e#3934#3977#0" expanded="false" />
+            <element signature="e#3989#4120#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

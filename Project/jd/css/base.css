@@ -174,7 +174,6 @@ s,i,em{font-style:normal;text-decoration:none;}
     width: 100%;
 }
 
-
 .dt,
 .shortcut .fore {
     padding: 0px 25px 0px 10px;
@@ -215,3 +214,33 @@ s,i,em{font-style:normal;text-decoration:none;}
     padding: 0px;
     margin-top: 9px;
 }
+
+/* 头部结束 */
+
+
+/* topbanner STATR */
+
+.topbanner {
+background-color: #8A25C6;
+}
+
+.tp {
+    position: relative;
+}
+
+.close-banner {
+    display: block;
+    width: 19px;
+    height: 19px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url(../images/close.png) no-repeat;
+}
+
+.close-banner:hover {
+    background-position:bottom;
+}
+
+/* topbanner END */
