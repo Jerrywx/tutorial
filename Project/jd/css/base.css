@@ -329,9 +329,6 @@ background-color: #8A25C6;
     padding-top: 2px;
 }
 
-
-
-
 .topSearch {
     /*background-color: gray;*/
     height: 100px;
@@ -344,6 +341,22 @@ background-color: #8A25C6;
 }
 
 
+/* footer start */
+
+.slogen {
+
+    height: 54px;
+    padding: 20px 0px;
+    background-color: #F5F5F5;
+}
+
+.slogen li {
+    float: left;
+    padding: 0px 40px;
+}
+
+
+/* footer end */
 
 
 
