@@ -228,29 +228,107 @@ background-color: #8A25C6;
 }
 
 /* topbanner END */
-
-
 .logo {
     width: 360px;
     height: 75px;
     background-color: pink;
     float:left;
     padding-top: 25px;
-    background: url(images/logo.png) no-repeat 0 25px;
+    background: url(../images/logo.png) no-repeat 0 25px ;
     position: relative;
+}
+
+.logo img {
+    position: absolute;
+    right: 12px;
+    top: 5px;
 }
 
 .search {
     width: 538px;
-    height: 75px;
+    height: 35px;
     background-color: purple;
     float: left;
-    padding-top: 25px;
+    margin-top: 30px;
 }
+
+.search input {
+    width: 450px;
+    height: 31px;
+    border: 2px solid #B61D1D;
+    float: left;
+    padding-left: 4px;
+    font: 14px/32px "microsoft yahei";
+    color: #666;
+}
+
+.search button {
+    height: 35px;
+    background-color: #B61D1D;
+    width: 80px;
+    float: left;
+    font: 16px/36px "microsoft yahei";
+    color: #ffffff;
+    cursor: pointer;
+}
+
 .car {
-    width: 139px;
+    /*background-color: blue;*/
+    float: left;
+    margin-left: 106px;
+    margin-top: 30px;
     height: 34px;
-    background-color: blue;
-    float: right;
-    margin:25px 65px 0 0 ;
+    line-height: 34px;
+
+    padding-left: 43px;
+    padding-right: 36px;
+    border: 1px solid #DFDFDF;
+
+    cursor: pointer;
+
+    position: relative;
+}
+
+.car .shopCar {
+
+    display: block;
+    width: 18px;
+    height: 15px;
+    position: absolute;
+
+    left: 17px;
+    top: 9px;
+
+    background: url(../images/sprite.png) no-repeat 0 -59px;
+}
+
+.car .more {
+    display: block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    /*background-color: red;*/
+    position: absolute;
+    right: 17px;
+    top: 9px;
+
+    font: normal bold 15px/15px arial,sans-serif;
+}
+
+
+.topSearch {
+    /*background-color: gray;*/
+    height: 100px;
+}
+
+.ha {
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+}
+
+
+
+body {
+    background-color: #F0F3EF;
 }
