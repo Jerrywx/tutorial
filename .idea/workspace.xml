@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397c47e3-7233-4ac9-9423-61e1fbe925c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/jd/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/jd/images/dong.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/jd/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/jd/images/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/jd/images/topbanner.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/jd/css/base.css" afterPath="$PROJECT_DIR$/Project/jd/css/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/jd/index.html" afterPath="$PROJECT_DIR$/Project/jd/index.html" />
@@ -46,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project/jd/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="59" column="20" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="20" />
+            <state relative-caret-position="168">
+              <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#589#595#0" expanded="true" />
@@ -59,18 +54,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/jd/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="233" column="12" selection-start-line="233" selection-start-column="12" selection-end-line="233" selection-end-column="12" />
               <folding>
-                <element signature="e#3437#3529#0" expanded="false" />
-                <element signature="e#3552#3611#0" expanded="false" />
-                <element signature="e#3627#3762#0" expanded="false" />
-                <element signature="e#3778#3925#0" expanded="false" />
-                <element signature="e#3934#3977#0" expanded="false" />
-                <element signature="e#3989#4120#0" expanded="false" />
+                <element signature="e#3143#3235#0" expanded="false" />
+                <element signature="e#3258#3317#0" expanded="false" />
+                <element signature="e#3333#3468#0" expanded="false" />
+                <element signature="e#3484#3631#0" expanded="false" />
+                <element signature="e#3640#3683#0" expanded="false" />
+                <element signature="e#3695#3826#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -157,8 +152,8 @@
         <option value="$PROJECT_DIR$/HTML/11-jQuery/00-JQuery基础/02-事件/01-click事件.html" />
         <option value="$PROJECT_DIR$/Project/jd/note" />
         <option value="$PROJECT_DIR$/Project/jd/css/index.css" />
-        <option value="$PROJECT_DIR$/Project/jd/index.html" />
         <option value="$PROJECT_DIR$/Project/jd/css/base.css" />
+        <option value="$PROJECT_DIR$/Project/jd/index.html" />
       </list>
     </option>
   </component>
@@ -457,12 +452,12 @@
       <workItem from="1508118490689" duration="1870000" />
       <workItem from="1508152582811" duration="77000" />
       <workItem from="1515992411379" duration="3572000" />
-      <workItem from="1516069489535" duration="2381000" />
+      <workItem from="1516069489535" duration="3664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115839000" />
+    <option name="totallyTimeSpent" value="117122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -854,28 +849,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/jd/index.html">
+    <entry file="file://$PROJECT_DIR$/Project/jd/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="59" column="20" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="20" />
+        <state relative-caret-position="210">
+          <caret line="233" column="12" selection-start-line="233" selection-start-column="12" selection-end-line="233" selection-end-column="12" />
           <folding>
-            <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#589#595#0" expanded="true" />
+            <element signature="e#3143#3235#0" expanded="false" />
+            <element signature="e#3258#3317#0" expanded="false" />
+            <element signature="e#3333#3468#0" expanded="false" />
+            <element signature="e#3484#3631#0" expanded="false" />
+            <element signature="e#3640#3683#0" expanded="false" />
+            <element signature="e#3695#3826#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/jd/css/base.css">
+    <entry file="file://$PROJECT_DIR$/Project/jd/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
           <folding>
-            <element signature="e#3437#3529#0" expanded="false" />
-            <element signature="e#3552#3611#0" expanded="false" />
-            <element signature="e#3627#3762#0" expanded="false" />
-            <element signature="e#3778#3925#0" expanded="false" />
-            <element signature="e#3934#3977#0" expanded="false" />
-            <element signature="e#3989#4120#0" expanded="false" />
+            <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#589#595#0" expanded="true" />
           </folding>
         </state>
       </provider>

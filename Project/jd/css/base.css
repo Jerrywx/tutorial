@@ -150,22 +150,6 @@ s,i,em{font-style:normal;text-decoration:none;}
 /*}*/
 
 
-/*.search {*/
-    /*width: 538px;*/
-    /*height: 75px;*/
-    /*background-color: purple;*/
-    /*float: left;*/
-    /*padding-top: 25px;*/
-/*}*/
-/*.car {*/
-    /*width: 139px;*/
-    /*height: 34px;*/
-    /*background-color: blue;*/
-    /*float: right;*/
-    /*margin:25px 65px 0 0 ;*/
-/*}*/
-
-
 /* 头部开始 */
 .shortcut {
     height: 30px;
@@ -244,3 +228,29 @@ background-color: #8A25C6;
 }
 
 /* topbanner END */
+
+
+.logo {
+    width: 360px;
+    height: 75px;
+    background-color: pink;
+    float:left;
+    padding-top: 25px;
+    background: url(images/logo.png) no-repeat 0 25px;
+    position: relative;
+}
+
+.search {
+    width: 538px;
+    height: 75px;
+    background-color: purple;
+    float: left;
+    padding-top: 25px;
+}
+.car {
+    width: 139px;
+    height: 34px;
+    background-color: blue;
+    float: right;
+    margin:25px 65px 0 0 ;
+}
