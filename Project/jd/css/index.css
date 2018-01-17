@@ -2,8 +2,19 @@
 
 
 
+
 .banner604 {
+    position: relative;
+    /*width: 100%;*/
+    /*height: 200px;*/
+    /*background-color: yellow;*/
+}
+
+.banner604 a {
     width: 100%;
-    height: 200px;
-    background-color: yellow;
+    height: 604px;
+    position: absolute;
+    background: url("../images/banner.jpg") no-repeat top center;
+    top: 0px;
+    left: 0px;
 }
