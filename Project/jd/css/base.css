@@ -228,6 +228,9 @@ background-color: #8A25C6;
 }
 
 /* topbanner END */
+
+
+/* Search START */
 .logo {
     width: 360px;
     height: 75px;
@@ -330,9 +333,105 @@ background-color: #8A25C6;
 }
 
 .topSearch {
-    /*background-color: gray;*/
     height: 100px;
 }
+
+/* Search END */
+
+
+
+/* jd-nav START */
+
+.jd-nav {
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid #B61D1D;
+}
+
+.dropdown {
+    height: 44px;
+    width: 200px;
+    float: left;
+    position: relative;
+    z-index: 10;
+    overflow: visible;
+}
+
+.dropdown .dt {
+    height: 45px;
+    padding-left: 10px;
+    background-color: #B61D1D;
+}
+
+.dropdown .dt a{
+    font:400 15px/44px "microsoft yahei";
+    color: #fff;
+    height: 44px;
+    width: 200px;
+}
+
+.dropdown .dd {
+    height: 496px;
+    background-color: #C81623;
+}
+
+.dropdown .item {
+    height: 31px;
+    line-height: 31px;
+    border-left: 1px solid #B61D1D;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.dropdown .item h3 {
+    float: left;
+}
+
+.dropdown .item span {
+    float: right;
+    margin-right: 15px;
+    font-weight: 600;
+    font-family: "Microsoft YaHei", STHeiti;
+    /*background-color: yellow;*/
+}
+
+
+.navitems {
+    float: left;
+    height: 44px;
+}
+
+.navitems li {
+    float: left;
+    display: block;
+    height: 44px;
+    padding: 0 20px;
+    line-height: 44px;
+    color: #333;
+    font: normal 15px/44px Arial, sans-serif;
+}
+
+
+.bike {
+    float: right;
+    height: 44px;
+    width: 140px;
+    background: url("../images/bike.jpg") no-repeat;
+    cursor: pointer;
+}
+
+.bike a {
+    height: 44px;
+}
+
+/* jd-nav END */
+
+
+
+
+
+
 
 .ha {
     width: 100%;
@@ -362,5 +461,5 @@ background-color: #8A25C6;
 
 
 body {
-    background-color: #F0F3EF;
+    /*background-color: #F0F3EF;*/
 }
