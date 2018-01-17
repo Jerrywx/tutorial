@@ -18,3 +18,9 @@
     top: 0px;
     left: 0px;
 }
+
+.main {
+    height: 600px;
+    background-color: yellow;
+    position: relative;
+}
